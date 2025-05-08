@@ -13,7 +13,8 @@ class SpriteSheet():
     image = pygame.transform.scale(image, (width_use, height_use))
     image.set_colorkey(color)
     return image
-      
+
+
 # sprite_sheet_image = pygame.image.load('sprite_sheet.png')
 # sprite_sheet = spritesheet.SpriteSheet(sprite_sheet_image)
 # # size = 1

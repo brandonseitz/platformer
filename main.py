@@ -121,6 +121,7 @@ class Game:
             pg.display.flip()
         pg.display.flip()
         waiting = True
+
         while waiting:
 
             # color = random.choice

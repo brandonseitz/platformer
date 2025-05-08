@@ -86,6 +86,7 @@ class Player(pg.sprite.Sprite):
             filename = "jump{}.png".format(i)
             img = pg.image.load(filename)
             img.set_colorkey(BLACK)
+
             #img = pg.transform.scale(img,(self.width,self.height))
             self.jump_img.append(img)
             #
